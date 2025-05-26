@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(70, 216, 133);
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(127, 155, 255);
+    font-size: 60px;
+    border-radius: 10px;
+
+}
+
+#container{
+    
+    display: grid;
+    width: 320px;
+    height: 320px;
+    
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 10px;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
