@@ -38,7 +38,7 @@ const checkwinner = () =>{
 
         if(po1v != ''&& po2v != ''&& po3v != ''){
             if(po1v == po2v&& po2v== po3v ){
-                console.log(`jeet gya re gandu ${po2v}`)
+                console.log(`winner ${po2v}`)
             }
         }
     }
