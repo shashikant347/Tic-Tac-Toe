@@ -1,5 +1,4 @@
-//prabhat
-//shashi
+
 let bt =  document.querySelectorAll(".box")
 
 
