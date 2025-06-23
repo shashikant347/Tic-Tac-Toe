@@ -78,6 +78,8 @@ let  po2v =  boxes[ar[1]].innerText
 let  po3v = boxes[ar[2]].innerText
 if( po1v != '' && po2v != '' && po3v!= ''){
 if(po1v=== po2v&& po2v ==po3v){
+    console.log(`winner is ${po1v}`)
+
 showWinner(po1v);
 }
 }
