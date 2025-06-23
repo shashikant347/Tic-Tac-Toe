@@ -6,9 +6,10 @@ body{
 .box{
     height: 100px;
     width: 100px;
-    background-color: rgb(127, 155, 255);
+    background-color: rgb(186, 201, 26);
     font-size: 60px;
     border-radius: 10px;
+    
 
 }
 
@@ -28,4 +29,20 @@ h1{
     text-align: center;
     font-size: 50px;
     color: black;
+}
+
+#winner{
+text-align: center;
+}
+
+#resetbutton{
+
+    margin-top: 30px;
+    font-size: large; 
+    display: flex;
+    justify-self: center;
+    border-radius: 5px ;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
 }
